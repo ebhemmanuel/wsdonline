@@ -8,9 +8,9 @@ body {
 
 	color: #ccc;
 
-		background-image: url(../images/background.png);
+	background: url(../images/background.jpg);
                
-   background-repeat: no-repeat;*/
+   	background-repeat: no-repeat;
 
    	background-color: #000;
 
@@ -61,7 +61,7 @@ nav ul li { display:inline;
 section { 
 
 	clear:both;
-	opacity:0;
+	/*opacity:0;*/
 	background-color:#999;
 
 /*background: url (../img/bg.jpg);
@@ -87,10 +87,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   padding: 5px;
 }
 
-#cta a:hover { 
-
-
-}
 
 #gallery ul li img {
 
@@ -132,15 +128,6 @@ a:hover, a:active {
 
 
 
-h1 {
-
-	}
-
-p {
-
-	}
-
-
 
 
 ul { 
@@ -149,14 +136,31 @@ ul {
 	}
 
 ul li  { list-style: none;
+}
 
-	}
+footer { 
+    
+    width:100%;
+    padding: 30px;
 
-img {
 
 }
 
-footer {
+.left {
+    
+    float: left;
+    width: 33%;
+}
 
+.right { 
+    
+     width: 33%;
+    float: right;
+    
+    
+}
 
+.centered {
+    text-align:center;
+     width: 33%;
 }
