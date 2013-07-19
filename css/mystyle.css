@@ -1,0 +1,162 @@
+body {
+
+	font-family: helvetica, arial, sans-serif;
+
+	/*font: .75em/1.5em Helvetica, Arial, sans-serif  #444;*/
+
+	font-size: 1.25em;*
+
+	color: #ccc;
+
+	/*	background-image: url(../images/background.png);
+               
+   background-repeat: no-repeat;*/
+
+   	background-color: #999;
+
+}
+
+p, h1, h2, h3, span, ol, ul {
+
+	color:#fff;
+
+	padding: 15px;
+}
+
+.logo {
+
+	padding:10px;
+
+	float:left;}
+
+
+header { 
+
+
+	height: 120px;
+
+	background-color: #000; /* don’t forget the color! background-color*/
+}
+
+nav {width:960px;
+	
+}
+
+nav ul{float: left;}
+
+nav ul li { display:inline;
+
+	padding:4px; /* makes the links appear inline */
+
+}
+
+#wrapper { 
+
+	width: 960px;
+	background-color:#313131;
+	margin: 0 auto;
+	clear:both; /* left, right, none, both. Depends on how you align the float. */
+}
+
+section { 
+
+	clear:both;
+
+	background-color:#999;
+
+/*background: url (../img/bg.jpg);
+	opacity: 0.1;*/
+/*opacity:0.6;*/
+/* 0 - 1, any decimals between 0 - 1 will be for example .6 is 60% while 1 is a 100% */
+
+}
+
+#cta {
+
+	 background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+  border-radius: 15px;
+  border: 5px solid #999;
+  padding: 5px;
+}
+
+#cta a:hover { 
+
+
+}
+
+#gallery ul li img {
+
+	padding: 8px;
+
+	display:inline;
+
+	float:left;
+}
+
+article { clear:both;
+
+	}
+
+aside {
+
+width: 360px;
+}
+
+
+
+
+
+a {
+ color: #ff0000;
+	font-size: 1em;
+	text-decoration: none; /*remove underline :)*/;
+
+}
+
+a:hover, a:active {   
+
+	color:#febc3a;
+  margin:0;
+  text-align:center;
+  text-shadow: 0px 3px 2px #fff;
+
+}
+
+
+
+h1 {
+
+	}
+
+p {
+
+	}
+
+
+
+
+ul { 
+	text-decoration: none;
+
+	}
+
+ul li  { list-style: none;
+
+	}
+
+img {
+
+}
+
+footer {
+
+
+}
