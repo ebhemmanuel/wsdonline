@@ -6,7 +6,7 @@ body {
 
 	font-size: 1.25em;*
 
-	color: #ccc;
+	/*color: #ccc;*/
 
 	/*	background-image: url(../images/background.png);
                
@@ -61,9 +61,9 @@ nav ul li { display:inline;
 section { 
 
 	clear:both;
-	opacity:0;
+	
 	background-color:#999;
-
+	opacity:0;
 /*background: url (../img/bg.jpg);
 	opacity: 0.1;*/
 
