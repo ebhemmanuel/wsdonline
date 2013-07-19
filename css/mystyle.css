@@ -4,17 +4,15 @@ body {
 
 	/*font: .75em/1.5em Helvetica, Arial, sans-serif  #444;*/
 
-	font-size: 1.25em;
+	font-size: 1.25em;*
 
 	color: #ccc;
 
-		background: url(../images/background.jpg);
-        
-        background-position: fixed;
+	/*	background-image: url(../images/background.png);
                
-   background-repeat: no-repeat;
+   background-repeat: no-repeat;*/
 
-   	background-color: #999;
+   	background-color: #000;
 
 }
 
@@ -63,12 +61,12 @@ nav ul li { display:inline;
 section { 
 
 	clear:both;
-
+	opacity:0;
 	background-color:#999;
 
 /*background: url (../img/bg.jpg);
 	opacity: 0.1;*/
-/*opacity:0.6;*/
+
 /* 0 - 1, any decimals between 0 - 1 will be for example .6 is 60% while 1 is a 100% */
 
 }
@@ -114,6 +112,8 @@ width: 360px;
 
 
 
+
+
 a {
  color: #ff0000;
 	font-size: 1em;
@@ -132,6 +132,17 @@ a:hover, a:active {
 
 
 
+h1 {
+
+	}
+
+p {
+
+	}
+
+
+
+
 ul { 
 	text-decoration: none;
 
@@ -141,30 +152,11 @@ ul li  { list-style: none;
 
 	}
 
-footer { 
-    
-    width:100%;
-    padding: 30px;
-
+img {
 
 }
 
-.left {
-    
-    float: left;
-    width: 33%;
-}
+footer {
 
-.right { 
-    
-     width: 33%;
-    float: right;
-    
-    
-}
 
-.centered {
-    text-align:center;
-     width: 33%;
-}
 }
