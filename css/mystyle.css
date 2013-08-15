@@ -28,6 +28,15 @@ body {
 
 }
 
+#wrapper { 
+
+	width: 930px;
+	background-color: #717171;
+	margin: 0 auto;
+	margin-top: 150px;
+	clear:both; /* left, right, none, both. Depends on how you align the float. */
+}
+
  .shadow {
           content: "";
           position: fixed;
@@ -150,14 +159,7 @@ nav a:hover, a:active {
 }
 
 
-#wrapper { 
 
-	width: 930px;
-	padding: 30px;
-	/*background-color: #fff;*/
-	margin: 0 auto;
-	clear:both; /* left, right, none, both. Depends on how you align the float. */
-}
 
 h1, h2, h3 {
 
@@ -167,7 +169,7 @@ h1, h2, h3 {
 
 p, span, ol, ul {
 
-	color:#5D7478;
+	color:#fff;
 
 	padding: 15px;
  }
@@ -211,11 +213,8 @@ width: 100%;
 
 
 	overflow: hidden;
-	width: 30% ;/*500px / 960px*/
+	width: 100% ;/*500px / 960px*/
 	height: 100%;
-	padding-top: 20px;
-	padding-left: 20px;
-	float:right;
 
 
 }
