@@ -353,6 +353,7 @@ ul li  { list-style: none;
 
 footer { 
     clear:both;
+    width: 960px;
     height:20px;
     color:#fff;
     background-color:#2E393B;
@@ -360,27 +361,12 @@ footer {
 
 }
 
-.left {
+.bottom {
     
     float: left;
-    width: 100px;
-    height: 60px;
+    width: 33%;
+
 
 }
 
-.right { 
-    
-     width: 100px;
-    float: right;
-    height: 60px;
-   
-}
 
-.centered {	
-
-    float:left;
-    margin:0 280px;
-     width: 100px;
-      height: 60px;
-
-}
