@@ -54,7 +54,6 @@ clear:both;
 
 	.logo {
 
-	font-family: Anton;
 
 	font-size: 150%;
 
@@ -74,7 +73,7 @@ header {
 	width:100%;
     height:80px;
     display:block;
-    position:fixed;
+   /*position:fixed;*/
     left:0;
     
 background: rgb(87,108,112); /* Old browsers */
@@ -100,8 +99,7 @@ nav {
 	font-size: 90%;
 	float:right;
 	margin-top: 8px;
-	width: 960px;
-	margin-right: 217px;
+	width: 100%;
 
 }
 
@@ -146,9 +144,8 @@ nav a:hover, a:active {
 	width:100%;
 	background-color: #161B1C;
 	display:block;
-    position:fixed;
+    /*position:fixed;*/
     left:0;
-    margin: 60px;
     opacity: .4;
 }
 
@@ -186,13 +183,12 @@ section {
 	background: url(../images/cta_background.jpg);
 	background-repeat: no-repeat;
 
- display:block;
- left:0; 
- margin-left: -20px;
-padding: 30px;
+
+
+
 height: 390px;
 width: 100%;
-margin-bottom: -30px;
+
 
 
 
@@ -216,9 +212,8 @@ margin-bottom: -30px;
 
 	overflow: hidden;
 	width: 30% ;/*500px / 960px*/
-	height: 300px;
-	margin: 0 15%;
-	padding-top: 120px;
+	height: 100%;
+	padding-top: 20px;
 	padding-left: 20px;
 	float:right;
 
@@ -353,11 +348,10 @@ ul li  { list-style: none;
 
 footer { 
     clear:both;
-    width: 960px;
-    height:20px;
+    width: 100%;
+    height:100%;
     color:#fff;
     background-color:#2E393B;
-     padding:30px;
 
 }
 
