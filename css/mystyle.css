@@ -4,7 +4,7 @@
 
 body {
 
-	font-family: arial;
+	font-family: "Actor", serif; 
 	/*font: .75em/1.5em Helvetica, Arial, sans-serif  #444;*/
 	font-size: 98%;
 	color: #5D7478;
@@ -167,6 +167,8 @@ h1, h2, h3 {
 
 p, span, ol, ul {
 
+	font-family: "Actor", serif; 
+
 	color:#c6c6c6;
 
 	padding: 15px;
@@ -254,6 +256,8 @@ h1 {
 
 
 section .ctabox p {
+
+	font-family: "Actor", serif; 
 
 	margin-top: 40px;
 	line-height: 25px;
