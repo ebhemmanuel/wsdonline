@@ -1,16 +1,13 @@
+
+
+
+
 body {
 
 	font-family: arial;
-
-
 	/*font: .75em/1.5em Helvetica, Arial, sans-serif  #444;*/
-
 	font-size: 98%;
-
 	color: #5D7478;
-
-
-
 	background: url(../images/background2.jpg);
 	background-repeat:no-repeat;
 	background-attachment: fixed;
@@ -18,6 +15,13 @@ body {
    	/*background-repeat: no-repeat;*/  	
 
 }
+
+.clear {
+
+	clear:both;
+
+}
+
 #wrapper { 
 
 	width: 1160px;
@@ -52,13 +56,7 @@ body {
 }
 
 
-.clear
 
-{
-
-clear:both;
-
-}
 
 	.logo {
 
@@ -127,8 +125,8 @@ nav ul li {
 
 #user {
 
-	margin-top: -15px;
-	padding-right: 60px;
+	margin-top: -85px;
+	margin-left:900px;
 	float: right;
 
 }
@@ -221,7 +219,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6241737', e
 
 .ctacontent {
 
-	padding-top: 260px;
+	padding-top: 190px;
 	width: 60%;
 	height: 40px;
 	/*display: table-cell;
@@ -277,7 +275,7 @@ section .ctabox p {
 
 #cta {
 
-	margin-top: 320px;
+	margin-top: 260px;
 	margin-right: 130px;
 
 background: -moz-linear-gradient(top,  rgba(12,10,15,0.7) 0%, rgba(12,10,15,0.7) 100%); /* FF3.6+ */
@@ -353,38 +351,33 @@ font-family: "Actor", serif; font-style: regular;font-weight: regular;
  
 article { 
 
-
 	float:left;
 	width:610px;
 	padding: 70px;
 	line-height: 25px;
 
-	
 	}
 
 
 aside {
 
-line-height: 25px;
-width: 220px;
-float:right;
-padding:30px;
-
-}
-
-
-
-ul { 
-	text-decoration: none;
+	line-height: 25px;
+	width: 220px;
+	float:right;
+	padding:30px;
 
 	}
 
-ul li  { list-style: none;
-}
+
+
+ul { text-decoration: none;}
+
+ul li  { list-style: none;}
 
 
 
 footer { 
+	
 	overflow: hidden;
     clear:both;
     width: 100%;
@@ -401,8 +394,6 @@ footer {
     float: left;
     width: 22%;
     height: 100%;
-
-
-}
+	}
 
 
