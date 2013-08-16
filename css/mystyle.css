@@ -1,167 +1,169 @@
 
 
 html { 
-  -ms-word-break: break-all; 
-  word-break: break-all; 
+  -ms-word-break: 		break-all; 
+ 	  word-break: 		break-all; 
 	}
 
 body {
 
-	font-family: "Actor", serif; 
-	font-size: 98%;
-	color: #5D7478;
-	background: url(../images/background2.jpg);
-	background-repeat:no-repeat;
-	background-attachment: fixed;
-	background-color: #0c0a0f;            	
+	      font-family: 	   "Actor", serif; 
+   	        font-size:		98%;
+	       background: 		url(../images/background2.jpg);
+	background-repeat:		no-repeat;
+background-attachment: 	    fixed;
+     background-color: 		#0c0a0f;  
+		        color: 		#5D7478;	          	
 
 	}
 
 h1 {   
 
-	font-family: "Actor", serif; 
-	color:#85ffa5;
-	text-shadow: 2px 1px 10px #350f40;
-	margin-bottom: -20px;
-	font-size: 3em;
+	     color:			 #85ffa5;
+	 font-size:			 3em;	     
+   font-family: 		 "Actor", serif; 
+   text-shadow: 		 2px 1px 10px #350f40;
+ margin-bottom: 		-20px;
+
 	
 	}
 
 h1, h2, h3 {
 
-	padding:5px;
-	color:#85ffa5;
+	   padding:			5px;
+		 color:			#85ffa5;
 
 	}
 
 p, span, ol, ul {
 
-	font-family: "Actor", serif; 
-	color:	#c6c6c6;
-	padding: 15px;
+   font-family: 	   "Actor", serif; 
+	   padding: 		15px;	    
+	     color:			#c6c6c6;
+
 	
 	 }
 
- 	ul { text-decoration: none;}
+ 	ul { 
 
-	ul li  { list-style: none;}
+text-decoration: 		none;
 
+		}
 
-	.clear {
+	ul li  { 
 
-	clear:both;
-
-	}
+   list-style: 			none;
+		
+		}
 
 #wrapper { 
 
-	max-width: 1160px;
-	width: 100%;
-	margin: 0 auto;
-	margin-top: 125px;
-	clear:both; /* left, right, none, both. Depends on how you align the float. */
-	
+	    clear:			both; 
+		width: 			100%;
+	max-width: 			1160px;		
+	   margin: 			0 auto;
+   margin-top:			125px;
+
+
 	}
 
 #wrapper2 { 
 
-	background-color: #0c0a0f;
-	max-width: 1160px;
-	width: 100%;
-	margin: 0 auto; 
-	clear:both; /* left, right, none, both. Depends on how you align the float. */
+		clear:			both; 
+	    width: 			100%;
+	max-width: 			1160px;	    
+	   margin: 			0 auto; 
+background-color: 		#0c0a0f;
 	
 	}
 
-
 header { 
 
-	width:100%;
-    height:80px;
-    display:block;
-    left:0;
+		width:			100%;
+   	   height:			80px;
+      display:			block;
+         left:			0;
 
 	}
 
-
-	.logo {
-
-	font-size: 150%;
-	float:left;
-	padding:10px;
-	margin-left: 5.17241379310345%; /*60px | 1160px */
-	margin-top: 15px;
+.logo {
+	   
+	    float:			left;
+	  padding:			.86206896551724%;			  /*10px;*/	    
+	font-size: 			150%;
+  margin-left:			5.17241379310345%;		 /*60px | 1160px */
+   margin-top: 			15px;
 
 	}
-
 
 nav {
 
-	font-size: 90%;
-	float:right;
-	width: 100%;
-	margin-top: 40px;
+		float:			right;
+		width:			100%;
+	font-size: 			90%;		
+   margin-top: 			40px;
 
 	}
 
 nav ul {
 
-	float: left;
+		float: 			left;
+	
 	/*padding-left: 10px;
 	margin-left: 10px;*/
-
 
 	}
 
 nav ul li { 
 
-	display:inline; 	/* makes the links appear inline */
-	padding:4px; 
+	  display:			inline; 	/* makes the links appear inline */
+	  padding:			4px; 
 
 	}
 
 nav a {
 
-	 color: #717171;
-	font-size: 1em;
-   text-decoration: none; 	/*remove underline :)*/;
+	      color: 		#717171;
+	  font-size: 		1em;
+text-decoration:	    none; 			/*remove underline :)*/;
 
 	}
 
 nav a:hover, a:active {   
 
-  color:#85ffa5;
+ 	    color:		  #85ffa5;
   
 	}
 
 	nav ul {
 
-	float: left;
-	/*padding-left: 10px;
+		float: 		  left;
+	
+    /*padding-left: 10px;
 	margin-left: 10px;*/
-
 
 	}
 
 nav ul li { 
 
-	display:inline; 	/* makes the links appear inline */
-	padding:4px; 
+	  display:		 inline; 	/* makes the links appear inline */
+	  padding:		 4px; 
 
 	}
 
 #user {
 	
-	  margin-top: 15px;
-	 float: right;
-	margin-right: 5.17241379310345%;	/*60px | 1160px */
+	    float:		 right;
+   margin-top: 		 15px;
+ margin-right:		 5.17241379310345%;			/*60px | 1160px */
 
 	}
 
 section { 
 	
-	height: 620px;
-	width: 100%;
+	   height: 		620px;
+	    width: 		100%;
+
 	/* 0 - 1, any decimals between 0 - 1 will be
 	 for example .6 is 60% while 1 is a 100% */
 	/*background: url(../images/cta_background.jpg);
@@ -169,31 +171,33 @@ section {
 
 	}
 
-
 .ctabox {
 
-	overflow: hidden;
-	width: 100% ;/*500px / 960px*/
-	height: 100%;
+	 overflow:		hidden;
+	    width:		100% ;						/*500px / 960px*/
+	   height:		100%;
 
-	background: -moz-linear-gradient(top,  rgba(36,23,55,0.9) 0%, rgba(36,23,55,0.9) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(36,23,55,0.9)), color-stop(100%,rgba(36,23,55,0.9))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(36,23,55,0.9) 0%,rgba(36,23,55,0.9) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(36,23,55,0.9) 0%,rgba(36,23,55,0.9) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(36,23,55,0.9) 0%,rgba(36,23,55,0.9) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(36,23,55,0.9) 0%,rgba(36,23,55,0.9) 100%); /* W3C */
+   background:     -moz-linear-gradient(top,  rgba(36,23,55,0.9) 0%, rgba(36,23,55,0.9) 100%); /* FF3.6+ */
+   background:     -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(36,23,55,0.9)), color-stop(100%,rgba(36,23,55,0.9))); /* Chrome,Safari4+ */
+   background:     -webkit-linear-gradient(top,  rgba(36,23,55,0.9) 0%,rgba(36,23,55,0.9) 100%); /* Chrome10+,Safari5.1+ */
+   background:     -o-linear-gradient(top,  rgba(36,23,55,0.9) 0%,rgba(36,23,55,0.9) 100%); /* Opera 11.10+ */
+   background:     -ms-linear-gradient(top,  rgba(36,23,55,0.9) 0%,rgba(36,23,55,0.9) 100%); /* IE10+ */
+   background:     linear-gradient(to bottom,  rgba(36,23,55,0.9) 0%,rgba(36,23,55,0.9) 100%); /* W3C */
 
 	}
 
 .ctacontent {
 
-	padding-top: 240px; /*190px;*/
-	max-width: 60%;
-	width: 34.48%;
-	height: 6.45161290322581%; /*40px;*/
-	padding-left: 6.89655172413793%; /*80px;*/
-	line-height: 20px; 
-	float: left;
+	    float: 		left;
+	   height: 		6.45161290322581%; 			/*40px;*/
+  line-height:      20px; 
+	    width: 		30%;						/*307px;*/	
+	max-width: 		60%;	       
+  padding-top: 		240px; 						/*190px;*/
+ padding-left:   	6.89655172413793%; 			/*80px;*/
+
+
+
 	/*display: table-cell;
 	text-align: center;
 	vertical-align: middle;*/
@@ -202,114 +206,118 @@ section {
 
 .ctacontent p {
 
-	color:#717171;
+	    color:		#717171;
 
 	}
 
 .ctabox p {
 
-	font-family: "Actor", serif; 
-
-	margin-top: 40px;
-	line-height: 25px;
+  font-family: 		"Actor", serif; 
+   margin-top: 		40px;
+  line-height: 		25px;
 	
 }
 
 #button {
 
-	margin-top: 320px;
-	margin-right: 130px;
-	border-radius: 5px;
-  	border: 0px solid #404F52;
-  	float: right;
+   margin-top:		320px;
+ margin-right:		11.20689655172414%;		/*130px / 1160px ;*/
+border-radius:		5px;
+       border:		0px solid #404F52;
+  	    float:		right;
 
-background: -moz-linear-gradient(top,  rgba(12,10,15,0.7) 0%, rgba(12,10,15,0.7) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(12,10,15,0.7)), color-stop(100%,rgba(12,10,15,0.7))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* W3C */
+   background:     -moz-linear-gradient(top,  rgba(12,10,15,0.7) 0%, rgba(12,10,15,0.7) 100%); /* FF3.6+ */
+   background:     -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(12,10,15,0.7)), color-stop(100%,rgba(12,10,15,0.7))); /* Chrome,Safari4+ */
+   background:     -webkit-linear-gradient(top,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* Chrome10+,Safari5.1+ */
+   background:     -o-linear-gradient(top,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* Opera 11.10+ */
+   background:     -ms-linear-gradient(top,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* IE10+ */
+   background:      linear-gradient(to bottom,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* W3C */
    
 	}
 
 #button a {
  
- 	color: #fff;
-	font-family: "Actor", serif;
-	font-size: 1.25em;
-	font-weight: normal;
-	text-decoration: none; /*remove underline :)*/;
+ 	      color: 	#fff;
+    font-family:	"Actor", serif;
+   	  font-size: 	1.25em;
+  	font-weight: 	normal;
+text-decoration:	none; 		/*remove underline :)*/
 
 	}
 
 #button a:hover, a:active {   
 
-  color:#85ffa5;
+  	   color:		#85ffa5;
   
 	}
 
 #gallery ul li img {
 
-	width: 20%;
-	height: 20%;
-	padding: 8px;
-	display:inline;
-	float:left;
-	margin-top: 30px;
-	margin-left: 31px;
+		width: 		15%;
+	   height:		15%;
+	  padding:      8px;
+	  display:		inline;
+    	float:		left;
+   margin-top: 		30px;
+  margin-left: 		31px;
 
 	}
 
 article { 
 
-	float:left;
-	max-width:610px;
-	width: 52.58%;
-	padding: 70px;
-	line-height: 25px;
+		 float:		left;
+	     width: 	70.68965517241379%;     /*820px;*/
+	   padding: 	6.03448275862069%; 		/*70px;*/
+   line-height: 	25px;
+
+	/*max-width: 620px; 610px;*/
 
 	}
 
 aside {
 
-	line-height: 25px;
-	max-width: 220px;
-	width:  18.96551724137931%; /* 220px | 1160 */
-	float:right;
-	padding: 2.58620689655172%;  /*30px;*/
+	      float:	right;
+	line-height:	25px;
+	  max-width: 	17.24137931034483%;		/*200px;*/
+	      width:	18.96551724137931%;    /* 220px | 1160 */
+	padding-top:    6.03448275862069%; 		/*70px;*/
+	
+	/*padding: 2.58620689655172%; 			/*30px;*/
 
 	}
 
 footer { 
 
-	overflow: hidden;
-    clear:both;
-    width: 100%;
-    height:100%;
-    background-color: #18141e;
+	  overflow: 	hidden;
+         clear:		both;
+         width: 	100%;
+        height:		100%;
+background-color: 	#18141e;
 
 	}
 
 .bottom {
 
-	padding: 5.17241379310345%;	/*60px | 1160px */
-	line-height: 25px;
-	margin-left: 3px;
-    float: left;
-    width: 22%;
-    height: 100%;
+	  padding: 		5.17241379310345%;	/*60px | 1160px */
+  line-height: 		25px;
+  margin-left: 		3px;
+   	    float: 		left;
+        width: 	    22%;
+       height:	    100%;
 
 	}
-
-
 
 
 /* Media Queries */
 
 
-
-
 /* Extras */
+
+	/*.clear {
+
+	clear:both;
+
+	}*/
 
 
 /*.overlay {
