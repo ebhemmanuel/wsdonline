@@ -24,7 +24,8 @@ body {
 
 #wrapper { 
 
-	width: 1160px;
+	max-width: 1160px;
+	width: 100%;
 	margin: 0 auto;
 	margin-top: 125px;
 	clear:both; /* left, right, none, both. Depends on how you align the float. */
@@ -33,7 +34,8 @@ body {
 #wrapper2 { 
 
 	background-color: #0c0a0f;
-	width: 1160px;
+	max-width: 1160px;
+	width: 100%;
 	margin: 0 auto; 
 	clear:both; /* left, right, none, both. Depends on how you align the float. */
 }
