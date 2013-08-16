@@ -12,10 +12,11 @@ body {
 	/*font: .75em/1.5em Helvetica, Arial, sans-serif  #444;*/
 	font-size: 98%;
 	color: #5D7478;
-	background-color: #0c0a0f;
+
 	background: url(../images/background2.jpg);
 	background-repeat:no-repeat;
 	background-attachment: fixed;
+	background-color: #0c0a0f;
                
    	/*background-repeat: no-repeat;*/  	
 
