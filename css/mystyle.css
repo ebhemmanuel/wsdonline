@@ -3,8 +3,7 @@
 html { 
   -ms-word-break: break-all; 
   word-break: break-all; 
-  word-break: break-word; /* old webkit */ 
-}
+	}
 
 body {
 
@@ -18,7 +17,7 @@ body {
 
 	}
 
-	h1 {   
+h1 {   
 
 	font-family: "Actor", serif; 
 	color:#85ffa5;
@@ -27,7 +26,6 @@ body {
 	font-size: 3em;
 	
 	}
-
 
 h1, h2, h3 {
 
@@ -44,17 +42,16 @@ p, span, ol, ul {
 	
 	 }
 
-
  	ul { text-decoration: none;}
 
 	ul li  { list-style: none;}
 
 
-.clear {
+	.clear {
 
 	clear:both;
 
-}
+	}
 
 #wrapper { 
 
@@ -63,7 +60,8 @@ p, span, ol, ul {
 	margin: 0 auto;
 	margin-top: 125px;
 	clear:both; /* left, right, none, both. Depends on how you align the float. */
-}
+	
+	}
 
 #wrapper2 { 
 
@@ -72,7 +70,8 @@ p, span, ol, ul {
 	width: 100%;
 	margin: 0 auto; 
 	clear:both; /* left, right, none, both. Depends on how you align the float. */
-}
+	
+	}
 
 
 header { 
@@ -93,7 +92,6 @@ header {
 	margin-left: 5.17241379310345%; /*60px | 1160px */
 	margin-top: 15px;
 
-
 	}
 
 
@@ -108,26 +106,17 @@ nav {
 
 nav ul {
 
+	float: left;
 	/*padding-left: 10px;
 	margin-left: 10px;*/
 
-	float: left;
 
 	}
 
 nav ul li { 
 
 	display:inline; 	/* makes the links appear inline */
-
 	padding:4px; 
-
-	}
-
-#user {
-	
-	  margin-top: 15px;
-	 float: right;
-	margin-right: 5.17241379310345%;	/*60px | 1160px */
 
 	}
 
@@ -143,35 +132,42 @@ nav a:hover, a:active {
 
   color:#85ffa5;
   
+	}
+
+	nav ul {
+
+	float: left;
+	/*padding-left: 10px;
+	margin-left: 10px;*/
+
 
 	}
 
+nav ul li { 
 
-	/*.red {
+	display:inline; 	/* makes the links appear inline */
+	padding:4px; 
 
-		height:2px;
-		width:100%;
-		background-color: #161B1C;
-		display:block;
-    	position:fixed;
-   	 	left:0;
-    	opacity: .4;
+	}
+
+#user {
 	
-		}*/
+	  margin-top: 15px;
+	 float: right;
+	margin-right: 5.17241379310345%;	/*60px | 1160px */
 
+	}
 
 section { 
-
-	/* 0 - 1, any decimals between 0 - 1 will be for example .6 is 60% while 1 is a 100% */
+	
+	height: 620px;
+	width: 100%;
+	/* 0 - 1, any decimals between 0 - 1 will be
+	 for example .6 is 60% while 1 is a 100% */
 	/*background: url(../images/cta_background.jpg);
 	background-repeat: no-repeat;*/
 
-	height: 620px;
-	width: 100%;
-
-
-
-}
+	}
 
 
 .ctabox {
@@ -187,20 +183,17 @@ section {
 	background: -ms-linear-gradient(top,  rgba(36,23,55,0.9) 0%,rgba(36,23,55,0.9) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(36,23,55,0.9) 0%,rgba(36,23,55,0.9) 100%); /* W3C */
 
-
-}
+	}
 
 .ctacontent {
 
-	padding-top: 190px;
+	padding-top: 240px; /*190px;*/
 	max-width: 60%;
 	width: 34.48%;
-	height: 40px;
-	
-	padding-left: 80px;
+	height: 6.45161290322581%; /*40px;*/
+	padding-left: 6.89655172413793%; /*80px;*/
 	line-height: 20px; 
 	float: left;
-
 	/*display: table-cell;
 	text-align: center;
 	vertical-align: middle;*/
@@ -213,14 +206,7 @@ section {
 
 	}
 
-
-.white {
-	color:#fff;
-	font-weight: bold;
-}
-
-
-section .ctabox p {
+.ctabox p {
 
 	font-family: "Actor", serif; 
 
@@ -228,6 +214,103 @@ section .ctabox p {
 	line-height: 25px;
 	
 }
+
+#button {
+
+	margin-top: 320px;
+	margin-right: 130px;
+	border-radius: 5px;
+  	border: 0px solid #404F52;
+  	float: right;
+
+background: -moz-linear-gradient(top,  rgba(12,10,15,0.7) 0%, rgba(12,10,15,0.7) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(12,10,15,0.7)), color-stop(100%,rgba(12,10,15,0.7))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* W3C */
+   
+	}
+
+#button a {
+ 
+ 	color: #fff;
+	font-family: "Actor", serif;
+	font-size: 1.25em;
+	font-weight: normal;
+	text-decoration: none; /*remove underline :)*/;
+
+	}
+
+#button a:hover, a:active {   
+
+  color:#85ffa5;
+  
+	}
+
+#gallery ul li img {
+
+	width: 20%;
+	height: 20%;
+	padding: 8px;
+	display:inline;
+	float:left;
+	margin-top: 30px;
+	margin-left: 31px;
+
+	}
+
+article { 
+
+	float:left;
+	max-width:610px;
+	width: 52.58%;
+	padding: 70px;
+	line-height: 25px;
+
+	}
+
+aside {
+
+	line-height: 25px;
+	max-width: 220px;
+	width:  18.96551724137931%; /* 220px | 1160 */
+	float:right;
+	padding: 2.58620689655172%;  /*30px;*/
+
+	}
+
+footer { 
+
+	overflow: hidden;
+    clear:both;
+    width: 100%;
+    height:100%;
+    background-color: #18141e;
+
+	}
+
+.bottom {
+
+	padding: 5.17241379310345%;	/*60px | 1160px */
+	line-height: 25px;
+	margin-left: 3px;
+    float: left;
+    width: 22%;
+    height: 100%;
+
+	}
+
+
+
+
+/* Media Queries */
+
+
+
+
+/* Extras */
+
 
 /*.overlay {
 
@@ -240,118 +323,6 @@ section .ctabox p {
     opacity: .4;
     z-index: 100;
 }*/
-
-#cta {
-
-	margin-top: 260px;
-	margin-right: 130px;
-
-background: -moz-linear-gradient(top,  rgba(12,10,15,0.7) 0%, rgba(12,10,15,0.7) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(12,10,15,0.7)), color-stop(100%,rgba(12,10,15,0.7))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(12,10,15,0.7) 0%,rgba(12,10,15,0.7) 100%); /* W3C */
-
-
-
-
-
-  	border-radius: 5px;
-  	border: 0px solid #404F52;
-  	float: right;
- 
-  
-}
-
-#cta a {
- color: #fff;
-font-family: "Actor", serif;
-	font-size: 1.25em;
-	font-weight: normal;
-	text-decoration: none; /*remove underline :)*/;
-
-}
-
-
-#cta a:hover, a:active {   
-
-  color:#85ffa5;
-  
-
-}
-
-
-#gallery ul li img {
-
-	width: 20%;
-	height: 20%;
-	padding: 8px;
-	display:inline;
-	float:left;
-	margin-top: 30px;
-	margin-left: 31px;
-
-
-}
-
-
- 
-article { 
-
-	float:left;
-	max-width:610px;
-	width: 52.58%;
-	padding: 70px;
-	line-height: 25px;
-
-	}
-
-
-aside {
-
-	line-height: 25px;
-	max-width: 220px;
-	width: 18.96%;
-	float:right;
-	padding: 2.58620689655172%;  /*30px;*/
-
-	}
-
-
-
-
-
-
-footer { 
-
-	overflow: hidden;
-    clear:both;
-    width: 100%;
-    height:100%;
-    background-color: #18141e;
-
-}
-
-.bottom {
-
-	padding: 5.17241379310345%;	/*60px | 1160px */
-	line-height: 25px;
-	margin-left: 3px;
-    float: left;
-    width: 22%;
-    height: 100%;
-	}
-
-
-
-
-/* Media Queries */
-
-
-
-
-/* Extras */
 
 
 /* .shadow {
@@ -385,3 +356,16 @@ footer {
 
 
 }*/
+
+
+	/*.red {
+
+		height:2px;
+		width:100%;
+		background-color: #161B1C;
+		display:block;
+    	position:fixed;
+   	 	left:0;
+    	opacity: .4;
+	
+		}*/
