@@ -320,7 +320,7 @@ background-color: 	#18141e;
           
        }
 
-@media screen and (min-device-width : 1080px) and (orientation: portrait) {
+@media screen and (min-device-width : 1020px) and (orientation: portrait) {
   #device:after {
     content: "Nexus 7 - portrait - chrome";}
 
@@ -328,12 +328,6 @@ background-color: 	#18141e;
     		background-color: #000;
     	}
 
-           #wrapper {
-		clear:			both; 
-		width: 			100%;
-	max-width: 			600px;		
-	   margin: 			0 auto;
-   margin-top:			0px;  
 
 }
 
