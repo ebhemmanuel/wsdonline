@@ -1,10 +1,5 @@
 
 
-html { 
-  -ms-word-break: 		break-all; 
- 	  word-break: 		break-all; 
-	}
-
 body {
 
 	      font-family: 	   "Actor", serif; 
@@ -13,7 +8,8 @@ body {
 	background-repeat:		no-repeat;
 background-attachment: 	    fixed;
      background-color: 		#0c0a0f;  
-		        color: 		#5D7478;	          	
+		        color: 		#5D7478;
+		   word-wrap:		normal;	          	
 
 	}
 
@@ -312,7 +308,7 @@ background-color: 	#18141e;
 
 /* Media Queries */
 
-/*@media screen (min-width: 750px) and (max-width:929px) {
+/*@media all and (max-width:929px) and (min-width: 750px) {
 
      #wrapper {
 
