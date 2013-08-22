@@ -324,8 +324,11 @@ background-color: 	#18141e;
   #device:after {
     content: "Nexus 7 - portrait - chrome";}
 
-           #wrapper {
+    	body {
+    		background-color: #000;
+    	}
 
+           #wrapper {
 		clear:			both; 
 		width: 			100%;
 	max-width: 			600px;		
