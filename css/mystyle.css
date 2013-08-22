@@ -308,7 +308,7 @@ background-color: 	#18141e;
 
 /* Media Queries */
 
-/*@media all and (max-width:929px) and (min-width: 750px) {
+@media only screen and (max-width:929px) and (min-width: 750px) {
 
      #wrapper {
 
@@ -319,6 +319,11 @@ background-color: 	#18141e;
    margin-top:			0px;     	
           
        }
+
+@media only screen and (width : 966px) and (orientation: landscape) {
+    #device:after {
+        content: "Nexus 7 - landscape - chrome";
+
 
 }
 
