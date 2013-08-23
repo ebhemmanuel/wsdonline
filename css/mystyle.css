@@ -552,10 +552,10 @@ background-color: 	#18141e;
 
 		  line-height: 		25px;
   		  width: 88%;
-  		  height: 400px;  
-		  -moz-column-count:2; /* Firefox */
-		  -webkit-column-count:2; /* Safari and Chrome */
-		  column-count:2;	  
+  		  height: 300px;  
+		  -moz-column-count:3; /* Firefox */
+		  -webkit-column-count:3; /* Safari and Chrome */
+		  column-count:3;	  
 
 		}
 
