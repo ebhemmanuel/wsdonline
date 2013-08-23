@@ -293,16 +293,16 @@ footer {
 	  overflow: 	hidden;
          clear:		both;
          width: 	100%;
-         height: 350px;
+         height: 450px;
 background-color: 	#18141e;
- margin-bottom: 	-20px;
-
+ /*margin-bottom: 	-20px;*/
 	}
 
 .bottom {
 
 	  padding: 		5.17241379310345%;	/*60px | 1160px */
         width: 	    88%;
+     
 
 
 	}
@@ -312,7 +312,7 @@ background-color: 	#18141e;
 		  line-height: 		25px;
   		  margin-left: 		3px;
   		  width: 88%;
-  		  height: 500px;  
+  		  height: 300px;  
 		  -moz-column-count:3; /* Firefox */
 		  -webkit-column-count:3; /* Safari and Chrome */
 		  column-count:3;	  
