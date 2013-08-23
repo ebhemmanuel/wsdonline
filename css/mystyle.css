@@ -551,12 +551,11 @@ background-color: 	#18141e;
 	.bottom p { 
 
 		  line-height: 		25px;
-  		  margin-left: 		3px;
   		  width: 88%;
   		  height: 200px;  
-		  -moz-column-count:3; /* Firefox */
-		  -webkit-column-count:3; /* Safari and Chrome */
-		  column-count:3;	  
+		  -moz-column-count:2; /* Firefox */
+		  -webkit-column-count:2; /* Safari and Chrome */
+		  column-count:2;	  
 
 		}
 
