@@ -786,7 +786,7 @@ text-decoration:	    none;
 
 
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 
 body {	  font-family: 	   "Actor", serif; 
@@ -798,7 +798,7 @@ body {	  font-family: 	   "Actor", serif;
 		}
 }
 
-	@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 		h1 {   
 
@@ -809,7 +809,7 @@ body {	  font-family: 	   "Actor", serif;
 
 	}
 }
-	@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 h1, h2, h3 {
 
@@ -820,7 +820,7 @@ h1, h2, h3 {
 	}	
 
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 .logo {
 
@@ -834,7 +834,7 @@ h1, h2, h3 {
 
 
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 
 		 nav {
@@ -851,7 +851,7 @@ h1, h2, h3 {
 
 }
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 nav ul {
 
@@ -864,7 +864,7 @@ nav ul {
 }
 
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 nav a {
 
@@ -879,8 +879,7 @@ text-decoration:	    none;
 	}
 
 
-
-	@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 .ctabox {
 
@@ -891,7 +890,7 @@ text-decoration:	    none;
 
 }
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 
 	.ctacontent {
@@ -906,7 +905,7 @@ text-decoration:	    none;
 
 }
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 	input{
 		width: 80%;
@@ -914,14 +913,14 @@ text-decoration:	    none;
 
 }
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 	textarea {
 
 		width: 80%;
 	}
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 
 	#user, aside
@@ -934,7 +933,7 @@ text-decoration:	    none;
 }
 
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 	#button {
 	
@@ -946,7 +945,7 @@ text-decoration:	    none;
 	}
 }
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 	article{
 
@@ -955,7 +954,7 @@ text-decoration:	    none;
 	}
 
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 .wrapper2{
 
@@ -966,7 +965,7 @@ overflow: visible;
 
 
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 section{
 
@@ -982,7 +981,7 @@ section{
 }
 
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 	
 	.form{
 
@@ -994,7 +993,7 @@ section{
 	}
 }
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 	label {
 
@@ -1009,13 +1008,13 @@ section{
 	}
 }
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 
 }
 
 
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 	#wrapper3 { 
 
@@ -1028,7 +1027,7 @@ background-color: 			#18141e;
 
 
 }
-@media screen and (max-width : 480px) {
+@media screen and (min-width: 320px) and (max-width : 480px) {
 
 
 footer { 
