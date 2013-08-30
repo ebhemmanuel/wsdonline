@@ -55,7 +55,6 @@
 			
 	
 
-				<div class="block"></div>
 
 				<div class="ctacontent"><h1>Be creative.</h1>
 
@@ -90,22 +89,30 @@
 					
 
 
-			<div id="gallery">
-
-					<ul>
-		
-						<li><a href="images/screenshot1.png" title="Main Character"><img src="images/thumbnail_1.png" alt="thumbnail 1"></a></li>
-							<li><a href="images/screenshot2.png" title="Caves"><img src="images/thumbnail_2.png" alt="thumbnail 2"></a></li>
-								<li><a href="images/screenshot3.png" title="Cave entrance"><img src="images/thumbnail_3.png" alt="thumbnail 3"></a></li>
-									<li><a href="images/screenshot4.png" title="Temple"><img src="images/thumbnail_4.png" alt="thumbnail 4"></a></li>	
-
-						</ul>
-
-			</div> <!--end gallery-->
+			
 
 		</article>
 
 			<aside> <!--Sidebar... Which I wish I didn't need to use...-->
+		
+
+
+		<table>	
+				
+				<tr>
+						
+						<th>Admins</th> 
+
+				</tr>	
+					
+				<tr>
+
+					<td>Admin Number 1</td>
+
+			</tr>
+			
+			</table> 
+
 		
 					<ul> <!--Thumbnail List Start-->
 
@@ -128,20 +135,20 @@
 	
 					<div><label for="name">Name:</label>
 
-							<input type="text" name="name" placeholder="Please enter your full name"/>
+							<input type="text" name="name" id="name" placeholder="Please enter your full name"/>
 						</div>	
 
 						<div>
 							<label for="email">Email:</label>
 				
-							<input type="text" name="email" placeholder="Please enter your email address"/>
+							<input type="text" name="email" id="email" placeholder="Please enter your email address"/>
 						</div>
 				
 						<div>	
 
-						<label name="Regarding">Regarding</label>
-							<span class="custom-dropdown custom-dropdown--white">
-								<select name="Regarding" class="custom-dropdown__select custom-dropdown__select--white">
+						<label for="regarding">Regarding</label>
+						 
+								<select name="regarding" id="regarding">
 									
 									<option>Mod issue</option>
 									<option>General</option>
@@ -149,7 +156,7 @@
 
 								</select>	
 
-								</span>
+			
 
 						
 							
@@ -157,7 +164,7 @@
 
 						<div>
 							
-							<label name="message">Message </label>
+							<label for="message">Message</label>
 						</div>	
 
 						<div>
@@ -172,26 +179,24 @@
 					
 			</div> <!--Form End-->
 
-		<!-- <table summary="light summary of the table">	
-				
-				<tr>
-						
-						<th>Table Header</th> 
-
-				</tr>	
-					
-				<tr>
-
-					<td>Data cell </tr>
-
-			</tr>
-			
-			</table> -->
-
-
 	</section>
 
-	
+	<div id="galleryblock">
+
+		<div id="gallery">
+
+					<ul>
+		
+						<li><a href="images/screenshot1.png" title="Main Character"><img src="images/thumbnail_1.png" alt="thumbnail 1"></a></li>
+							<li><a href="images/screenshot2.png" title="Caves"><img src="images/thumbnail_2.png" alt="thumbnail 2"></a></li>
+								<li><a href="images/screenshot3.png" title="Cave entrance"><img src="images/thumbnail_3.png" alt="thumbnail 3"></a></li>
+									<li><a href="images/screenshot4.png" title="Temple"><img src="images/thumbnail_4.png" alt="thumbnail 4"></a></li>	
+
+						</ul>
+
+			</div> <!--end gallery-->
+
+	</div>				
 
 	<div id="wrapper3">
 		
