@@ -784,7 +784,7 @@ text-decoration:	    none;
 @media screen and (max-width: 320px) {
 
 
-i#gallery ul li img {
+i#gallery ul li img { 
 
 		width: 		10%;
 	   height:		10%;
