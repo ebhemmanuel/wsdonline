@@ -37,7 +37,6 @@ section{
 		float:left;
 		padding-top: 20px;
 		padding-bottom: 120px;
-		overflow: scroll;
 
 	}
 
@@ -786,8 +785,8 @@ text-decoration:	    none;
 
 i#gallery ul li img { 
 
-		width: 	    8%;
-	   height:		8%;
+		width: 	    15%;
+	   height:		15%;
 	  padding:      4px;
 	  display:		inline;
     	float:		left;
